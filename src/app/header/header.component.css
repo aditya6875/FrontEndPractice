@@ -1,0 +1,47 @@
+.nav{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    margin: auto;
+    align-items: center;
+    
+}
+span{
+    color: honeydew;
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+}
+.left{
+    margin-left: 30px;
+    padding: 20px;
+}
+.right{
+    margin-right: 30px;
+    padding: 20px;
+    
+}
+.signin{
+    margin-left:  5px;
+    font-size: 15px;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    padding: 7px;
+}
+
+    
+.request{
+    background-color: grey;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 2px solid #dadbf1 ;
+    padding: 7px;
+}
+@media only screen and (min-width: 150px) and (max-width:400px){
+    .nav{
+        display: flex;
+        flex-direction: column;
+    }
+}
